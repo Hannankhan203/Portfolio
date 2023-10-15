@@ -1,0 +1,103 @@
+/* Navigation Bar Start */
+#navbar{
+    flex-direction: column;
+}
+#navbar::before{
+    height:90px;
+    width:100%;
+}
+#navbar #logo{
+    margin:6px auto;
+    padding:3px 6px;
+}
+#navbar #logo img{
+    height:30px;
+}
+#navbar #navigation{
+    display:flex;
+    position:relative;
+    margin:3px auto;
+}
+#navbar #navigation .item{
+    list-style: none;
+    padding:10px 25px; 
+    font-size: 1rem;
+}
+/* Navigation Bar End */
+/* Home Section Start */
+#home{
+    height: 350px;
+    padding: 4px 3px;
+}
+#home::before{
+    height: 545px;  
+}
+#home p{
+    font-size: 0.6rem;;
+}
+/* Home Section End */
+/* Work Section Start */
+#work{
+    margin-top: 98px;
+}
+#work::before{
+    height:1228px;
+    width:100%;
+}
+#work h1{
+    padding:10px 10px;
+}
+#work .my-work{
+    flex-direction: column;
+    margin:0px 5px;
+}
+#work .my-work .work-box{
+    margin: 10px 1px;
+}
+#work .my-work .work-box a .adobe{
+    height:80px;
+}
+#work .my-work .work-box a .jawan{
+    height:80px;
+    width:120px;
+}
+#work .my-work .work-box a .review{
+    height:80px;
+}
+
+#work .my-work .work-box a .fitness{
+    height:80px;
+    width:120px;
+}
+#work .my-work-3{
+    flex-direction: column;
+    margin:0px 5px;
+}
+#work .my-work-3 .work-box{
+    margin: 10px 1px;
+}
+#work .my-work-3 .work-box a .codexx{
+    height:80px;
+    width:120px;
+}
+#work .my-work-3 .work-box a .ak{
+    height:80px;
+    width:120px;
+}
+#work .my-work-3 .work-box a .default{
+    height:80px;
+    width:120px;
+}
+/* Work Section End */
+/* Universal Classes Start */
+.h-primary{
+    font-size: 1.8rem;
+    padding:6px 10px;
+}
+.h-secondary{
+    font-size: 1rem;
+}
+.center{
+    text-align: center;
+}
+/* Universal Classes End */

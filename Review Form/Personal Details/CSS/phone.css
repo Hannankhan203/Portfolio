@@ -1,0 +1,48 @@
+.heading{
+    width:100%;
+    margin-top:150px;
+}
+.link{
+    font-size: 10px;
+}
+
+.account{
+    font-size:10px;
+}
+.personaldetails{
+    font-size:10px;
+}
+h2{
+    top:10px;
+    left:4%;
+    font-size: 13px;
+}
+div{
+    border:1px solid black;
+    width:100%;
+}
+.box{
+    height: 350px;
+}
+p{
+    font-size: 10px;
+    margin:5px;
+    padding:10px;
+}
+input{
+    font-size: 13px;
+    top:0%;
+    margin:5px;
+    width:90%;
+}
+button{
+    top:7%;
+    font-size: 13px;
+    width:40%;
+}
+.back{
+    left:4%;
+}
+.next{
+    left:6%;
+}

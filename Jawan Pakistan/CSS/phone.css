@@ -1,0 +1,106 @@
+.header{
+    flex-direction: column;
+}
+.header::before{
+    height: 70px;
+}
+.header .left{
+    padding:3px 6px;
+    margin:8px auto;
+}
+.header .left img{
+    height: 30px;
+}
+.header .right{
+    margin:0px auto;
+    position:static;
+}
+.header .right .navbar{
+    margin:5px auto;
+}
+.right .navbar li a{
+    font-size: 12px;
+}
+.main{
+    left:3%;
+    right:3%;
+    height: 1800px;
+}
+.main-heading{
+    font-size: 18px;
+}
+.first{
+    flex-direction: column;
+}
+.word{
+    font-size: 12px;
+}
+.menu{
+    padding:5px
+}
+.drop{
+    font-size: 10px;
+    padding-right: 130px;
+}
+input{
+    padding-right: 90px;
+    font-size: 10px;
+}
+.date{
+    font-size: 10px;
+    padding-right: 130px;
+}
+.input{
+    padding:0px 30px;
+    padding-right: 70px;
+}
+.line{
+    padding-right: 100px;
+}
+.file{
+    position:absolute;
+    top:1550px;
+    left:5px;
+}
+.text{
+    font-size: 7px;
+    bottom:15px;
+}
+.file-option[type=file]::file-selector-button{
+    background-color:darkgreen;
+    padding:5px;
+    border:1px solid darkgreen;
+    border-radius: 5px;
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: 7px;
+}
+.file-option{
+    font-size: 7px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:0px;
+    position: absolute;
+    left:37%;
+}
+.submit{
+    /* border:2px solid red; */
+    margin:auto;
+    width:30%;
+    position:absolute;
+    top:95%;
+    left:43%;
+}
+.submit button{
+    border:none
+}
+.submit-option{
+    padding:10px 35px;
+    background-color: darkgreen;
+    color:white;
+    border:none;
+    cursor:pointer;
+    border-radius: 5px;
+    font-size: 8px;
+}
