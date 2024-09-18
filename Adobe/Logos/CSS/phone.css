@@ -1,0 +1,60 @@
+body::before{
+    height: 1600px;
+}
+/* Navigation Bar Start */
+#navbar::before{
+    height:60px;
+}
+#navbar h1{
+    margin:5px auto;
+    padding:10px;
+}
+/* Navigation Bar End */
+/* Logos Section Start */
+#logos-section{
+    margin:40px 5px;
+    box-shadow: 0px 0px 20px black;
+    padding-bottom: 20px;
+}
+.logo{
+    flex-direction: column;
+}
+.logo-box{
+    padding:30px;
+    margin:10px auto;
+}
+.logo-box img{
+    height:100px;
+    margin:auto;
+    display:block;
+    box-shadow: 0px 0px 20px black;;
+}
+.logo-box .jawan{
+    height:40px;
+    margin:auto;
+    display:block;
+    box-shadow: 0px 0px 20px black;;
+}
+.logo-box .sport{
+    height:40px;
+    margin:auto;
+    display:block;
+    box-shadow: 0px 0px 20px black;;
+}
+.logo-box h2{
+    text-shadow: 0px 0px 10px black;
+}
+/* Logos Section End */
+/* Universal Classes Start */
+.h-primary{
+    font-size: 1.4rem;
+    padding:3px 6px;
+}
+.h-secondary{
+    font-size: 1rem;
+    padding:2px 4px;
+}
+.center{
+    text-align: center;
+}
+/* Universal Classes End */

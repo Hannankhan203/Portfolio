@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body::before{
+    content: "";
+    background-color: red;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 840px;
+    opacity: 0.4;
+    z-index: -2;
+}
+/* Navigation Bar Start */
+#navbar{
+    display:flex;
+    position: sticky;
+    top:0;
+    z-index: 3;
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100px;
+    opacity: 0.4;
+    z-index: -1;
+}
+#navbar h1{
+    margin:20px auto;
+    color:white;
+    text-shadow: 0px 0px 10px black;
+}
+/* Navigation Bar End */
+/* Fram Animation Section Start */
+#animation-section{
+    margin:40px 100px;
+    box-shadow: 0px 0px 20px black;
+    padding-bottom: 10px;
+}
+.animation{
+    display:flex;
+}
+.animation-box{
+    padding:30px;
+    margin:10px auto;
+}
+.animation-box img{
+    height:200px;
+    margin:auto;
+    display:block;
+    box-shadow: 0px 0px 20px black;;
+}
+.animation-box h2{
+    text-shadow: 0px 0px 10px black;
+}
+/* Frame Animation Section End */
+/* Universal Classes Start */
+.h-primary{
+    font-size: 3rem;
+    padding:3px 6px;
+}
+.h-secondary{
+    font-size: 2rem;
+    padding:2px 4px;
+}
+.center{
+    text-align: center;
+}
+/* Universal Classes End */

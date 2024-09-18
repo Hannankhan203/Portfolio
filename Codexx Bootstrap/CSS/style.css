@@ -1,0 +1,63 @@
+.navbar{
+    box-shadow:0px -5px 20px black;
+}
+.navbar-brand img{
+    height:70px;
+}
+.navbar .navbar-nav{
+    margin:auto;
+}
+.navbar .navbar-nav .nav-item{
+    padding:5px;
+}
+.navbar .navbar-nav .nav-link{
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+.navbar .navbar-nav .nav-link:hover{
+    background:lightblue;
+}
+.navbar .btn{
+    margin:5px;
+    padding:5px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    transition:all 0.5s;
+}
+.navbar .btn:hover{
+    box-shadow:0px 0px 10px black;
+}
+.slide{
+    box-shadow:0px 10px 20px black;
+}
+.slide .carousel-item{
+    height:400px;
+}
+.slide .carousel-item h5{
+    font-size:30px;
+}
+.slide .carousel-item p{
+    font-size:15px;
+}
+.container h1{
+    margin:auto;
+    padding:10px;
+    text-shadow:5px 4px 10px lightblue;
+}
+.container{
+    display:flex;
+}
+.container .card{
+    margin:auto;
+    box-shadow:0px 0px 20px black;
+}
+.container .card .width{
+    height:200px;
+}
+.div{
+    margin:100px auto;
+}
+.cont{
+    margin:100px;
+    flex-direction: column;
+}

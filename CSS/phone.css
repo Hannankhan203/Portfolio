@@ -1,0 +1,138 @@
+/* Navigation Bar Start */
+#navbar{
+    flex-direction: column;
+}
+#navbar::before{
+    height:90px;
+    width:100%;
+}
+#navbar #logo{
+    margin:6px auto;
+    padding:3px 6px;
+}
+#navbar #logo img{
+    height:30px;
+}
+#navbar #navigation{
+    display:flex;
+    position:relative;
+    margin:3px auto;
+}
+#navbar #navigation .item{
+    list-style: none;
+    padding:10px 25px; 
+    font-size: 1rem;
+}
+/* Navigation Bar End */
+/* Home Section Start */
+#home{
+    height: 350px;
+    padding: 4px 3px;
+}
+#home::before{
+    height: 545px;  
+}
+#home p{
+    font-size: 0.6rem;;
+}
+/* Home Section End */
+/* Work Section Start */
+#work{
+    margin-top: 98px;
+}
+#work::before{
+    height:1795px;
+    width:100%;
+}
+#work h1{
+    padding:10px 10px;
+}
+#work .my-work{
+    flex-direction: column;
+    margin:0px 5px;
+}
+#work .my-work .work-box{
+    margin: 10px 1px;
+}
+#work .my-work .work-box a .adobe{
+    height:80px;
+}
+#work .my-work .work-box a .jawan{
+    height:80px;
+    width:120px;
+}
+#work .my-work .work-box a .review{
+    height:80px;
+}
+#work .my-work-2{
+    flex-direction: column;
+    margin:0px 5px;
+}
+#work .my-work-2 .work-box{
+    margin: 10px 1px;
+}
+#work .my-work-2 .work-box a .sport{
+    height:80px;
+    width:120px;
+}
+#work .my-work-2 .work-box a .fitness{
+    height:80px;
+    width:120px;
+}
+#work .my-work-2 .work-box a .discord{
+    width:120px;
+    height:80px;
+}
+#work .my-work-3{
+    flex-direction: column;
+    margin:0px 5px;
+}
+#work .my-work-3 .work-box{
+    margin: 10px 1px;
+}
+#work .my-work-3 .work-box a .codexx{
+    height:80px;
+    width:120px;
+}
+#work .my-work-3 .work-box a .ak{
+    height:80px;
+    width:120px;
+}
+#work .my-work-3 .work-box a .default{
+    height:80px;
+    width:120px;
+}
+/* Work Section End */
+/* Contact Section Start */
+#contact{
+    margin-top:40px;
+}
+#contact h1{
+    padding:5px 10px;
+}
+#contact::before{
+    width:100%;
+    height:548px;
+}
+#contact .contact-box form .form-group input, #contact .contact-box form .form-group textarea{
+    font-size: 1rem;
+}
+#contact .contact-box form{
+    width:90%;
+}
+#contact .contact-box form .form-group label {
+    font-size: 1.2rem;
+}
+/* Contact Section End */
+/* Universal Classes Start */
+.h-primary{
+    font-size: 1.8rem;
+    padding:6px 10px;
+}
+.h-secondary{
+    font-size: 1rem;
+}
+.center{
+    text-align: center;
+}
+/* Universal Classes End */

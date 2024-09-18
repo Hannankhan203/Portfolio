@@ -1,0 +1,42 @@
+.heading{
+    width:100%;
+    margin-top:150px;
+}
+.link{
+    font-size: 10px;
+}
+
+.account{
+    font-size:10px;
+}
+h2{
+    top:10px;
+    left:4%;
+    font-size: 14px;
+}
+div{
+    border:1px solid black;
+    width:100%;
+}
+.box{
+    height: 300px;
+}
+p{
+    font-size: 10px;
+    padding:5px;
+}
+input{
+    font-size: 10px;
+    width:90%;
+}
+button{
+    top:8%;
+    font-size: 13px;
+    width:30%;
+}
+.back{
+    left:4%;
+}
+.next{
+    left:6%;
+}

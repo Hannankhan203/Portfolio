@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.heading{
+    margin:auto;
+    width:44%;
+    text-align: center;
+    margin-top:60px;
+    background-color: grey;
+}
+.link{
+    color:black;
+    font-size: 1.5em;
+}
+
+.account{
+    background-color: lightgreen;
+    font-size:1.5em;
+    color:black;
+}
+.personaldetails{
+    background-color: lightgreen;
+    font-size:1.5em;
+    color:black;
+}
+.yourreview{
+    background-color: lightblue;
+    color:black;
+    font-size:1.5em;
+}
+h2{
+    margin:auto;
+    position:relative;
+    top:17px;
+    left:29%;
+    background-color: white;
+    display:inline-block;
+}
+.box{
+    border:1.5px solid black;
+    margin:auto;
+    width:43.5%;
+    border-radius: 4px;
+}
+.box{
+    height: 570px;
+}
+p{
+    font-size: 1.5em;
+    position:relative;
+    top:5%;
+    margin:10px;
+}
+input{
+    font-size: 1.2em;
+    position:relative;
+    top:1%;
+    margin:10px;
+    width:50%;
+}
+.drop{
+    background-color: white;
+    padding:4px;
+    padding-left: 30px;
+}
+.dropdown{
+    position:relative;
+    display:inline-block;
+    left:53%;
+    bottom:1.5%;
+}
+.cont{
+    display:block;
+    text-decoration: none;
+    color:black;
+}
+.cont:hover{
+    background-color: blue;
+    color:white;
+}
+.dropdown:hover .content{
+    display:block;
+}
+.radios{
+    display:inline-block;
+}
+textarea{
+    position:relative;
+    top:4%;
+    margin:10px;
+}
+form{
+    position:relative;
+    top:4%;
+}
+.check{
+    position:relative;
+    top:5%;
+    right:23%;
+}
+.checkbox{
+    position:relative;
+    left:6%;
+    bottom:3%;
+}
+a{
+    text-decoration: none;;
+    color:#ffffff;
+}
+.back{
+    left:5%;
+    position:relative;
+    font-size: 1.5em;
+    background-color: rgb(10, 10, 79);
+    width:20%;
+    border:2px solid rgb(10, 10, 79);
+    cursor: pointer;
+}
+.next{
+    left:15%;
+    position:relative;
+    font-size: 1.5em;
+    background-color: rgb(10, 10, 79);
+    width:20%;
+    border:2px solid rgb(10, 10, 79);
+    cursor: pointer;
+}

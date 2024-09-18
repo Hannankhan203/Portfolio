@@ -1,0 +1,32 @@
+header{
+    margin:5px auto;
+    margin-top:150px;
+}
+header h1{
+    font-size: 25px;
+}
+hr{
+    width: 85%;
+}
+main{
+    padding-top:5px;
+    padding-left:0px;
+    padding-right:0px;
+}
+p{
+    padding-bottom:5px;
+    font-size: 12px;
+}
+h3,h4{
+    font-size: 17px;
+}
+.p{
+    padding-top:5px;
+}
+img{
+    width: 30%;
+}
+a{
+    position:relative;
+    left:35%;
+}

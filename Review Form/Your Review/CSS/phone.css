@@ -1,0 +1,70 @@
+.heading{
+    width:100%;
+    margin-top:150px;
+}
+
+.account{
+    font-size:10px;
+}
+.personaldetails{
+    font-size:10px;
+}
+.yourreview{
+    font-size:10px;
+}
+h2{
+    top:9px;
+    left:4%;
+    font-size: 14px;
+}
+.box{
+    border:1px solid black;
+    width: 100%;
+}
+.box{
+    height: 430px;
+}
+p{
+    font-size: 10px;
+    top:3%;
+    margin:10px;
+}
+input{
+    font-size: 13px;
+    top:0%;
+    margin:5px;
+    width:50%;
+}
+.drop{
+    background-color: white;
+    padding:4px;
+    padding-left: 0px;
+    font-size: 7px;
+}
+.dropdown{
+    left:53%;
+}
+textarea{
+    top:1%;
+    width:90%
+}
+form{
+    top:2%;
+}
+.check{
+    top:2.5%;
+    right:19%;
+}
+.checkbox{
+    left:10%;
+}
+.back{
+    font-size: 13px;
+    width:40%;
+    cursor: pointer;
+}
+.next{
+    left:7%;
+    font-size: 13px;
+    width:40%;
+}
