@@ -2,7 +2,7 @@
 
 > A modern, fully responsive personal portfolio website built with **HTML5** and **CSS3** — no frameworks, no JavaScript libraries. Designed to impress recruiters and showcase my front-end development skills.
 
-🔗 **Live Demo:** [hannan.dev](https://hannankhan203.github.io/portfolio) *(replace with your actual URL)*
+🔗 **Live Demo:** [hannan](https://github.com/Hannankhan203/Portfolio)*
 
 ---
 
